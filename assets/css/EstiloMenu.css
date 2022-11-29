@@ -1,0 +1,160 @@
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 440px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+    margin-bottom: 45px;
+	
+}
+.amenu {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .3s ease 0s;
+	border-radius: 8px;
+}
+#aEDIT:nth-child(1) {
+	width: 100px;
+}
+#aEDIT:nth-child(2) {
+	width: 110px;
+}
+#aEDIT:nth-child(3) {
+	width: 125px;
+}
+
+#aEDIT:nth-child(4) {
+	width: 100px;
+}
+
+nav .start-inicio, #aEDIT:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-registro, #aEDIT:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-estadistica, #aEDIT:nth-child(3):hover~.animation {
+	width: 125px;
+	left: 210px;
+	background-color: #3498db;
+}
+
+nav .start-eventos, #aEDIT:nth-child(4):hover~.animation {
+	width: 105px;
+	left: 335px;
+	background-color: #b035e0;
+}
+
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover ;
+}
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+
+span {
+    color: #2BD6B4;
+}
+
+.containerI{
+	margin: auto;
+	width: 64%;
+	padding: 5px;
+	border: 5px;
+	box-shadow:5px 5px 5px 10px #00000033;
+	margin-bottom: 15px;
+	
+}
+
+#infoUser{
+	left: 10px;
+	position: fixed;
+	padding-left: 10px;
+	border: solid #000000;
+	border-radius: 8px;
+	background-color: #000000;
+	height: 150px;
+	width: 160px;
+	color: white;
+	margin-top: 2px;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.classh4{
+	margin-bottom: 0px;
+	font-size: 22.17px;
+
+}
+
+.classLabel{
+	font-size: 16px;
+	
+}
+
+.imgUser{
+	height: 45px;
+	width: 45px;
+	border-radius: 20px;
+	margin-top: 3px;
+	margin-left: 2px;
+	margin-bottom: 0px;
+
+}
+
+.containExit{
+	background-color: aliceblue;
+	margin-right: 65px;
+	margin-left: 65px;
+	align-items: center;
+	border-radius: 3px;
+	width: 25px;
+
+}
+
+.h1titloEvento{
+
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 50px;
+		color: black;
+		box-shadow: gray
+		;
+	 
+	 
+}
+
